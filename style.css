@@ -96,3 +96,26 @@ h2 {
   padding: 150px 0 10px 30px;
 }
 }
+
+@media(max-width: 375px) {
+  .container {
+    width: 300px;
+  }
+
+  .banner {
+  padding: 150px 0 10px 30px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Bokor", system-ui;
+  line-height: 0.5px;
+}
+
+.banner p {
+  line-height: 2px;
+  color : rgba(236, 255, 233,0.8);
+  letter-spacing: 3.5px;
+  font-size: 12px;
+}
+}
